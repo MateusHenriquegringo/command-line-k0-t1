@@ -25,3 +25,5 @@ p24-b[fim]: date
 p25-b[fim]: top
 p26-b[fim]: lscpu
 p27-b[fim]: uname -r
+p28-b[fim]: grep -r "You found the needle in the haystack!" bunch_of_files/
+
