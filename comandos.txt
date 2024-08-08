@@ -21,3 +21,4 @@ p20-b[fim]: ./hello_executable (rodei esse ao inves de utilizar o comando "echo"
 p21-b[fim]: chmod +x challenge_20 && ./challenge_20
 p22-b[fim]: gcc compile_me.c -o compile_me && ./compile_me
 p23-b[fim]: ./redirect >> output.txt
+p24-b[fim]: date
