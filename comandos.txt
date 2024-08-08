@@ -12,3 +12,5 @@ p11-i[fim]: > empty.txt
 p12-i[fim]L: echo -n > empty.txt
 p13-b[fim]: cp hello.txt goodbye.txt
 p14-b[fim]: mv goodbye.txt hello_copy.txt
+p15-i[fim]: diff hello.txt hello_copy.txt
+
