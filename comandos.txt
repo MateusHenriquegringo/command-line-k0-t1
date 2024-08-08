@@ -50,3 +50,4 @@ p47-a[fim]: sed 's/,/|/g' people.csv > people_pipe.csv
 p48-a[fim]: md5sum bunch_of_files/* | grep "$(md5sum file001.rand | awk '{print $1}')"
 p49-a[parte um]: touch supercalifragilisticexpialidocious.txt
 p49-a[parte dois]: rm supe*
+p50-a[start]:
