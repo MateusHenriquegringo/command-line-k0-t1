@@ -33,3 +33,4 @@ p32-i[fim]: echo "Hello" && sleep 5 && echo "world!"
 p33-i[fim]: dd if=/dev/zero of=zero_file.txt bs=1M count=1 (deveria ser avancado e nao intermediario rsrs)
 p34-i[fim]: dd if=/dev/urandom of=random_file.txt bs=1M count=2
 p35-i[fim]: wc -l  README.txt
+p36-b[fim]: tac README.txt
