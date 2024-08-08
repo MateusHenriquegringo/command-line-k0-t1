@@ -51,3 +51,5 @@ p48-a[fim]: md5sum bunch_of_files/* | grep "$(md5sum file001.rand | awk '{print 
 p49-a[parte um]: touch supercalifragilisticexpialidocious.txt
 p49-a[parte dois]: rm supe*
 p50-a[start]:
+p50-a[fim]:touch {a,b,c}{1,2,3}.txt
+
