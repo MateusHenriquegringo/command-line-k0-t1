@@ -18,3 +18,4 @@ p17-b[fim]: pwd
 p18-b[fim]: ls -l
 p19-b[fim]: echo "vamos gremio" >>restricted.txt 
 p20-b[fim]: ./hello_executable (rodei esse ao inves de utilizar o comando "echo" no p7-b)
+p21-b[fim]: chmod +x challenge_20 && ./challenge_20
