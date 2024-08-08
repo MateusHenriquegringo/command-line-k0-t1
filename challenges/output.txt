@@ -1,0 +1,2 @@
+This output should go to "output.txt"
+This output should go to "output.txt"

@@ -20,4 +20,4 @@ p19-b[fim]: echo "vamos gremio" >>restricted.txt
 p20-b[fim]: ./hello_executable (rodei esse ao inves de utilizar o comando "echo" no p7-b)
 p21-b[fim]: chmod +x challenge_20 && ./challenge_20
 p22-b[fim]: gcc compile_me.c -o compile_me && ./compile_me
-
+p23-b[fim]: ./redirect >> output.txt
