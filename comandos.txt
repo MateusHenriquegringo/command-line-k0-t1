@@ -37,4 +37,5 @@ p36-b[fim]: tac README.txt
 p37-i[fim]: cut -d',' -f2 people.csv
 p38-a[fim]: awk -F',' '{print $2}' people.csv | sort| uniq | wc -l
 p39-a[fim]: tail -n +2 people.csv | awk -F',' '{print $2}' | sort | uniq | wc -l
+p40-a[fim]: sed '1d' people.csv | awk -F',' '{print $2}' | sort | uniq | wc -l
 
