@@ -14,4 +14,5 @@ p13-b[fim]: cp hello.txt goodbye.txt
 p14-b[fim]: mv goodbye.txt hello_copy.txt
 p15-i[fim]: diff hello.txt hello_copy.txt
 p15-b[fim]: cat hello.txt hello_copy.txt > 2_hellos.txt
-
+p17-b[fim]: pwd
+p18-b[fim]: ls -l
