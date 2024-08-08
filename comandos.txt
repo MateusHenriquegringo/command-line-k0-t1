@@ -34,3 +34,5 @@ p33-i[fim]: dd if=/dev/zero of=zero_file.txt bs=1M count=1 (deveria ser avancado
 p34-i[fim]: dd if=/dev/urandom of=random_file.txt bs=1M count=2
 p35-i[fim]: wc -l  README.txt
 p36-b[fim]: tac README.txt
+p37-i[fim]: cut -d',' -f2 people.csv
+
