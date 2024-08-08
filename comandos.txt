@@ -46,3 +46,5 @@ p45-i[fim]: find challenges -type f -name '*deleteme*'
 p46-i[start]: 
 p46-i[fim]: grep -rl "You found the needle in the haystack!" bunch_of_files/ | xargs sed -i 's/You found the needle in the haystack!/The needle has been removed./g'
 p47-a[start]:
+p47-a[fim]: sed 's/,/|/g' people.csv > people_pipe.csv
+
