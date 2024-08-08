@@ -4,3 +4,4 @@ p3-b[fim]: ls
 p4-b[fim]: mkdir foo
 p5-i[fim]: mkdir -p foo/bar/1/2/3
 p6-b[fim]: rm -rf foo
+p7-b[fim]: ./hello_executable
