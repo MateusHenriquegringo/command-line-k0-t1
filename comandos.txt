@@ -41,3 +41,5 @@ p40-a[fim]: sed '1d' people.csv | awk -F',' '{print $2}' | sort | uniq | wc -l
 p41-a[fim]: time (p39-a) && time (p40-a) [primeiro metodo eh mais eficiente]
 p42-a[fim]: awk -F',' '$4 == "Josiah" {count++} END {print count}' people.csv
 p43-i[fim]: ls -p challenges | grep -v / | wc -l
+p44-i[fim]: ls -l challenges | grep '^d' | wc -l
+
