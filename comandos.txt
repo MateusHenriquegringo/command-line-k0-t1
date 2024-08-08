@@ -28,3 +28,5 @@ p27-b[fim]: uname -r
 p28-b[fim]: grep -r "You found the needle in the haystack!" bunch_of_files/
 p29-b[fim]: head -n 25 people.csv
 p30-b[fim]: tail -25 people.csv
+p31-i[fim]: diff greeting1.txt greeting2.txt
+
