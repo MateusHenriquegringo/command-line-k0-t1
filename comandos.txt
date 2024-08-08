@@ -8,7 +8,3 @@ p7-b[fim]: ./hello_executable
 p8-b[fim]: ./hello_executable >> hello.txt
 p9-b[fim]:  touch empty.txt
 p10-b[fim]: rm empty.txt
-<<<<<<< HEAD
-=======
-
->>>>>>> p9-bp10-b
