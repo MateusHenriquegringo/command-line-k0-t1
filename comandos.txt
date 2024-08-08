@@ -1,3 +1,4 @@
 p1-b[fim]: gunzip challenges.ta.gz && tar xf challenges.tar
 p2-b[fim]: cd challenges 
 p3-b[fim]: ls
+p4-b[fim]: mkdir foo
